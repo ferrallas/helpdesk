@@ -1,24 +1,25 @@
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-
+# Copyright 2017 Dario Lodeiros - Dario Lodeiros <dariodafoz@gmail.com>
+# Copyright 2018 Angel Moya
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
-    "name": "Helpdesk Project",
-    "summary": """
-        Helpdesk""",
-    "version": "13.0.1.0.0",
+    "name": "HelpDesk_project",
+    "summary":
+        "Module to Support Teams",
+    "version": "13.0.0.0.1",
+    "category": "Customer Relationship Management",
+    "website": "",
+    "author": "Carlos Soriano <csoriano@puntsistemes.es>,"
+              "Puntsistemes",
     "license": "AGPL-3",
-    "category": "After-Sales",
-    "author": "AdaptiveCity, "
-    "C2i Change 2 Improve, "
-    "Domatix, "
-    "Factor Libre, "
-    "SDi Soluciones, "
-    "PESOL ,"
-    "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/helpdesk",
-    "depends": ["helpdesk_mgmt"],
-    "data": [],
-    "demo": [],
-    "development_status": "Alpha",
+    "data": [
+        "data/ir_sequence_data.xml",
+        "security/ir.model.access.csv",
+        "views/project_views.xml",
+        "views/ticket_views.xml",
+    ],
     "application": True,
     "installable": True,
+    "depends": [
+        "helpdesk_mgmt",
+        "project"],
 }

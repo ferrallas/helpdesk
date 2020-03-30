@@ -10,7 +10,7 @@ TODO:
 --- si busco primero el proyecto solo permitir seleccionar tareas de ese proyecto (onchange a project que devuelva un domain)
 -- poder agrupar, filtrar por proyecto o tarea (modificar vista search)
 
-- En la vista formulario de tareas:
+- En la vista formulario de tareas del proyecto:
 -- añadir una solapa para Tickets, en esa solapa:
 --- añadir un listado de tickets asociados a esa tarea (o2m asociado al m2o definido en ticket)
 
